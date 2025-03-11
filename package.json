@@ -1,10 +1,5 @@
 {
-	"name": "@codeeditorland/markdown-tm-grammar",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"build": "node build"
-	},
+	"activationEvents": [],
 	"contributes": {
 		"grammars": [
 			{
@@ -14,11 +9,16 @@
 			}
 		]
 	},
-	"activationEvents": [],
 	"dependencies": {},
+	"description": "",
 	"devDependencies": {
 		"@codeeditorland/test": "0.0.1",
 		"js-yaml": "4.1.0",
 		"plist": "3.1.0"
+	},
+	"main": "index.js",
+	"name": "@codeeditorland/markdown-tm-grammar",
+	"scripts": {
+		"build": "node build"
 	}
 }
