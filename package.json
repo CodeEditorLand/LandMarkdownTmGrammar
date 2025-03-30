@@ -1,9 +1,32 @@
 {
 	"name": "@codeeditorland/markdown-tm-grammar",
+	"version": "0.0.1",
+	"private": false,
 	"description": "",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandMarkdownTmGrammar#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandMarkdownTmGrammar/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandMarkdownTmGrammar.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"build": "node build"
+		"build": "node build",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"contributes": {
 		"grammars": [
@@ -18,7 +41,11 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@codeeditorland/test": "0.0.1",
+		"@playform/build": "0.2.1",
 		"js-yaml": "4.1.0",
 		"plist": "3.1.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
